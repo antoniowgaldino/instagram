@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    /* background: url('../images/background.png') no-repeat;
+    background-size: cover;
+    background-position: top 0px left -9px;
+    background-size: 99%; */
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 700px;
+    /* min-height: 100px; */
+    /* margin-top: 30px; */
+    margin: 43px auto 0 410px;
+}
+
+.carrossel {
+    width: 380px;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    max-width: 345px;
+}
+
+.form-div form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh 2vw;
+    border: 1px solid rgba(128, 128, 128, .3);
+}
+
+.form-div form .instalogo {
+    width: 180px;
+    margin: 20px auto 30px auto;
+}
+
+.input {
+    font-size: .75rem;
+    background-color: rgb(250, 250, 250);
+    width: 250px;
+    padding: .6rem;
+    border-radius: 4px;
+    border: 1px solid rgba(128, 128, 128, .3);
+    margin: 3px;
+}
+
+.login-btn {
+    width: 270px;
+    height: 34px;
+    padding: 10px;
+    font-weight: 700;
+    background-color: rgb(75, 180, 248);
+    border: none;
+    border-radius: 8px;
+    margin: 8px 0px;
+    color: #fff;
+}
+
+#ou {
+    width: 20px 0;
+    margin-top: 13px;
+}
+
+#ou::before, #ou::after {
+    content: "----------------------------";
+    color: rgba(128, 128, 128, .7);
+    margin: 0 10px;
+}
+
+.fb-login {
+    font-weight: 700;
+    font-size: .8em;
+    align-items: center;
+    justify-content: center;
+    color: rgb(56, 81, 133);
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+.fb-login img {
+    width: 22px;
+    height: 22px;
+    margin: 0 3px -5px 0;
+}
+
+.remember {
+    font-size: .75em;
+    margin-bottom: 8px;
+    color: black;
+}
+
+.sign-up {
+    font-size: .8em;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, .3);
+    padding: 25px;
+    /* margin: 10px; */
+    margin-top: 10px;
+}
+.sign-up a {
+    color: rgb(0, 149, 246);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.get-app p {
+    font-size: .85rem;
+    text-align: center;
+    margin: 18px;
+}
+
+.store {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px;
+}
+
+.iconstore {
+    height: 40px;
+    border-radius: 6px;
+    margin: 0 3px;
+}
+
+.iconstore:hover {
+    cursor: pointer;
+}
